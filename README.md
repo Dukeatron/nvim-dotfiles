@@ -30,9 +30,10 @@ To install NeoVim nightly, head over to [this link](https://github.com/neovim/ne
 
 1. On the command line, run `nvim`. Ignore any errors it throws up
 2. After you have entered the environment, run `:PlugInstall`
-3. Wait for a few minutes
-4. Now, check if there are any extra errors popping up. If there are some unintended errors, make a pull request
-5. Enjoy!
+3. After all plugins have been installed, use `:q` to exit
+4. Run `nvim` again, and run `:TSUpdate`
+5. Now, check if there are any extra errors popping up. If there are some unintended errors, make a pull request
+6. Enjoy!
 
 ## Adding features
 
