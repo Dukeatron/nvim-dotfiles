@@ -35,9 +35,18 @@ To install NeoVim nightly, head over to [this link](https://github.com/neovim/ne
 5. Now, check if there are any extra errors popping up. If there are some unintended errors, make a pull request
 6. Enjoy!
 
+## LSP
+You have to install these language servers post pasting config:
+
+1. `:LspInstall ltex`: Installs grammar/LaTex completion
+2. `:LspInstall pylsp`: Installs support for Python
+3. `LspInstall tsserver`: Installs support for TypeSccript/JavaScript
+4. `:LspInstall sumneko_lua`: Installs support for lua
+5. `:LspInstall vimls`: Installs support for vimscript
+
+I have configured AutoCompletion out of the box, note that grammar is _not_ finished yet.
+
 ## Adding features
 
 You can add features by your own by modifying the `.rc.vim` or `.vim` files. An in-depth **wiki** will be made soon!
 Till then, you can make a pull request for adding more language servers/plugins.
-
-
